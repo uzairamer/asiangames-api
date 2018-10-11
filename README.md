@@ -23,7 +23,7 @@ MASTER_PASSWORD = 'ADMIN123' #will be used in secured routes
 
 ## Usage
 After installing all the dependencies and  configuring config.py, run populate_db.py in the asiangames directory. It will populate the SQLite database for you.
-Next, run run.py and your server will be hosted publically at **http://127.0.0.1:5000**
+Next, run run_server.py and your server will be hosted locally at **http://127.0.0.1:5000**
 
 ## Public Endpoints
 ```bash
@@ -62,7 +62,6 @@ value: application/json
 {
   "email": "uzair@gmail.com", #any valid email
   "password": "uzair", #a strong password
-  "access_level": 1 #1 for USER, 2 for ADMIN
 }
 ```
 and then send the request to the following route
