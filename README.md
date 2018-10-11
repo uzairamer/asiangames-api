@@ -37,7 +37,7 @@ GET      /athletes/age/<string:age> #returns all athletes that have age equal to
 ```
 ```bash
 GET      /schedules #returns all the schedules
-GET      /schedules/sport/<string:sport_id> #returns all schedules of a particular sport with sport_id
+GET      /schedules/sport/<int:sport_id> #returns all schedules of a particular sport with sport_id
 ```
 ```bash
 GET      /medals #returns all the medals's records
